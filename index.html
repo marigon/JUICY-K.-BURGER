@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JUICY K. BURGER</title>
+  <meta name="description" content="120文字以内">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <header class="header">
+    <h1 class="header-title">
+      <span class="screen-reader-text">JUICY K. BURGER</span>
+      <a href="/"><img src="./images/logo.png" alt="JUICY K. BURGER"></a>
+    </h1>
+
+    <nav class="gnav">
+      <div class="gnav__wrap">
+        <h2 class="screen-reader-text">サイト内メニュー</h2>
+        <ul class="gnav__text">
+          <li class="gnav__news"><a href="#!" target="_blank">news</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#menu">menu</a></li>
+          <li class="gnav__info"><a href="#!" target="_blank">shop info</a></li>
+        </ul>
+        <ul class="gnav__icon">
+          <li><a href=""><img src="./images/icon-facebook.svg" alt="facebook"></a></li>
+          <li><a href=""><img src="./images/icon-insta.svg" alt="instagram"></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <button class="btn__trigger">
+      <span class="btn-bar">
+        <span class="screen-reader-text">メニューを開く</span>
+      </span>
+    </button>
+  </header>
+
+
+  <div class="hero" id="hero">
+    <!--背景-->
+    <picture class="hero__bg">
+      <source srcset="./images/img-hero-sp.png" media="(max-width:479px)">
+      <img src="./images/img-hero-pc.png" alt="ジューシーハンバーガー">
+    </picture>
+
+    <!--ロゴ-->
+    <figure class="hero__logo">
+      <img src="./images/hero-logo.png" alt="JUICY K. BURGER">
+    </figure>
+  </div>
+
+  <!-- about section -->
+  <section id="about">
+    <div class="section-title">
+      <h2 class="section-title__text">about</h2>
+      <picture class="section-title__bg about-section__bg">
+        <source srcset="./images/bg1-burger-sp.jpg" media="(max-width:479px)">
+        <img src="./images/bg1-burger-pc.jpg" alt="友達とハンバーガーを楽しむ">
+      </picture>
+    </div>
+
+    <section class="container about-section">
+      <h3 class="sub-title">tastes good<br>& Juicy</h3>
+      <p class="copy">ジューシーな肉汁が口の中にじゅわっと広がる</p>
+      <p class="about__text">テキストテキストテキストテキストテキストテキスト<br>
+        テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+    </section>
+  </section>
+
+
+  <!-- grand menu -->
+  <section id="menu">
+    <div class="section-title">
+      <h2 class="section-title__text">grand menu</h2>
+      <picture class="section-title__bg">
+        <source srcset="./images/bg2-meatballs-sp.jpg" media="(max-width:479px)">
+        <img src="./images/bg2-meatballs-pc.jpg" alt="ミートボール">
+      </picture>
+    </div>
+    <p class="menu-download"><a href="#!" target="_blank">grand menu download</a></p>
+
+    <ul class="container menu-wrapper">
+      <li>
+        <section class="menu-section">
+          <div>
+            <h3 class="menu-title">cheese burger</h3>
+            <p class="price">From ¥800(+tax)</p>
+            <ul>
+              <li>特製チーズソース</li>
+              <li>牛肉100%パティ</li>
+              <li>オニオン</li>
+              <li>フレッシュトマト</li>
+              <li>自家製ピクルス</li>
+              <li>レタス</li>
+              <li>特性ソース</li>
+            </ul>
+          </div>
+          <figure>
+            <img src="./images/img-cheese-burger.jpg" alt="チーズバーガー">
+          </figure>
+        </section>
+      </li>
+
+      <li>
+        <section class="menu-section">
+          <div>
+            <h3 class="menu-title">beef w burger</h3>
+            <p class="price">From ¥1,000(+TAX)</p>
+            <ul>
+              <li>牛肉100%パティ</li>
+              <li>燻製ベーコン</li>
+              <li>チェダーチーズ</li>
+              <li>焼きトマト</li>
+              <li>自家製ピクルス</li>
+              <li>特性ソース</li>
+            </ul>
+          </div>
+          <figure>
+            <img src="./images/img-beef-w-burger.jpg" alt="ビーフダブルバーガー">
+          </figure>
+        </section>
+      </li>
+
+      <li>
+        <section class="menu-section">
+          <div>
+            <h3 class="menu-title">meatball pasta</h3>
+            <p class="price">From ¥580(+TAX)</p>
+            <ul>
+              <li>ミートボール</li>
+              <li>特製ミートソースパスタ</li>
+              <li>クレソン</li>
+              <li>ブラックペッパー</li>
+            </ul>
+          </div>
+          <figure>
+            <img src="./images/img-meatball-pasta.jpg" alt="ミートボールパスタ">
+          </figure>
+        </section>
+      </li>
+
+      <li>
+        <section class="menu-section">
+          <div>
+            <h3 class="menu-title">baked potato</h3>
+            <p class="price">From ¥350(+TAX)</p>
+            <ul>
+              <li>ベイクドポテト</li>
+              <li>特性チーズ</li>
+              <li>ケチャップ</li>
+              <li>マスタードソース</li>
+            </ul>
+          </div>
+          <figure>
+            <img src="./images/img-baked-potato.jpg" alt="ベイクドポテト">
+          </figure>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <footer>
+    <div class="footer-wrapper">
+      <nav>
+        <h2 class="screen-reader-text">その他のメニュー</h2>
+        <ul>
+          <li><a href="#hero">juicy k. burger's group home</a></li>
+          <li><a href="#!">重要なお知らせ</a></li>
+          <li><a href="#!">お問い合わせ</a></li>
+          <li><a href="#!">採用情報</a></li>
+        </ul>
+      </nav>
+      <p><small>Copyright &copy; <span>juicy k. burger's</span> CO., LTD. All rights reserved.</small></p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
